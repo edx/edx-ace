@@ -98,12 +98,10 @@ httpx[http2]==0.28.1
     # via firebase-admin
 hyperframe==6.1.0
     # via h2
-hypothesis[pytz]==6.151.6
+hypothesis[pytz]==6.90.0
     # via
     #   -r requirements/test.in
     #   hypothesis-pytest
-hypothesis-pytest==0.19.0
-    # via -r requirements/test.in
 idna==3.11
     # via
     #   anyio
@@ -168,7 +166,7 @@ pytest-cov==7.0.0
     # via -r requirements/test.in
 pytest-django==4.11.1
     # via -r requirements/test.in
-pytest-randomly==4.0.1
+pytest-randomly==3.15.0
     # via -r requirements/test.in
 python-dateutil==2.9.0.post0
     # via -r requirements/base.in
